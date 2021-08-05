@@ -1,11 +1,14 @@
 {
-  "name": "robots-parser",
+  "name": "@henryclong/robots-parser",
   "version": "1.0.0",
   "description": "Parses robots.txt to JS object",
   "main": "index.js",
   "repository": "git@github.com:henryclong/robots-parser.git",
   "author": "Henry Long <henry.cassetta.long@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "coverage": "nyc yarn test"
