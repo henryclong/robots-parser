@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "git@github.com:henryclong/robots-parser.git",
   "author": "Henry Long <henry.cassetta.long@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "coverage": "nyc yarn test"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "nyc": "^15.1.0"
+  }
 }
